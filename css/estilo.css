@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(../assets/fundo.png);
+    position: relative;
+    height: 1336px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.span{
+    display: flex;
+    margin: 60px 152px auto 80px;
+    justify-content: space-between;
+}
+h1{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 218px;
+    color: white;
+    font-size: 24px;
+    margin-left: 5px;
+}
+ul{
+    display: flex;
+    gap: 19px;
+    margin: 77px 80px auto 450px;
+    height: 26px;
+    width: 240px;
+    left: 371px;
+    top: -0.5px;
+    border-radius: 0px;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.inicio::after{
+    content:"";
+        width: 50px;
+        height: 4px;
+        position: absolute;
+        background-color: gray ;
+        border-radius: 4px;
+        right: 269px;
+        top: 102px;
+        background-color: #FF5244;
+
+}
+.apresentação{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+.textoinicial{
+    margin: 95px 409px auto 80px;
+    color: white;
+}
+.nome{
+    font-size: 48px;
+    line-height: 42px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+.service{
+    font-size: 32px;
+    line-height: 48px;
+}
+.eu{
+    height: 388px;
+    width: 261px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+.logo{
+    width: 56px;
+}
+h2{
+    margin-left: 80px;
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 230px;
+}
+.contato{
+    display: flex;
+    justify-content: space-between;
+    width: 274px;
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: left; 
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.tempo{ 
+    margin-left: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 263px;
+    text-align: left;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 60px;
+    font-size: 32px;
+
+}
+.experiencia{
+    display: flex;
+    justify-content: space-between;
+    width: 351px;
+    margin-top: 10px;
+    margin-left: 80px;
+    color: white;
+    text-align: left; 
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.funções{
+    color: white;
+    margin-top: 1px;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 48px;
+}
+p{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    width: 347px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 69px;
+}
+.web{
+  display: flex;  
+  justify-content: space-between; 
+}
+
+.habilidades{
+    background-color: #212121;
+    width: 163px;
+    text-align: left;
+    padding: 13px;
+    margin-top: 27px;
+    border-radius: 8px;
+}
+
+.habilidades h2{
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.habilidades p{
+    font-size: 12px;
+    width: 129px;
+    margin-top: 10px;
+
+}
+h4{
+    color: #FF5244;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 69px;
+}
+.linha{
+        height: 4px;
+        left: 5rem;
+        right: 5rem;
+        position: absolute;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        background-color: #FF5244;
+        align-items: center;
+        margin-top: 70px;
+}
+footer{
+    text-align: center;
+    position: relative;
+    background-color: #1E1615;
+    margin-top: 74px;
+    padding-top: 27px;
+    height: 92px;
+}
+.vermelho{
+    color: #FF5244;
+}
+.abc{
+    margin: 95px 409px auto 80px;
+    margin-top: 0;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
